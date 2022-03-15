@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input tags</title>
+    <style>
+        
+        .cont{
+            padding:15px;
+            margin:15px;
+        }
+        .bod{
+            background-color: grey;
+            font-weight: bold;
+            margin-top:20px;
+            margin-bottom:20px;
+            padding: 75px;
+            font-family: 'Roboto', sans-serif;
+            border:solid #0d0e0d;
+            width: 1200px;
+    
+            
+        }
+        input{
+            padding:6px;
+            font-size:14px;
+            border-radius: 4px;    
+        }
+        .oh{
+            display: inline-grid;
+        }
+        
+    .sea{
+        text-align:end;
+
+    }
+    .selec{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    width: 170px;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+ </head>
+<body class="cont">
+    <div class = "bod">
+    <div class="sea">
+        <lable for="search"></lable>
+        <input type="search" placeholder = "search"> 
+        <input type="button" value="enter"style="background-color:#7373e5">
+        </div>
+        <br>
+        <br>
+    <div class=oh>
+    <lable for="name">Name :</lable>
+    <input type="text" name = "Name" style="width:400px;">
+   </div>
+    <br>
+    <br>
+    <div class=oh>
+        <lable for="mail">Mail id :</lable>
+        <input type="email" mail="Mail id" style="width:400px;">
+</div>
+<br>
+<br>
+    <div class=oh>
+        <lable for="age">Age : </lable>
+        <input type="number"age="number"style="width:400px;">
+    </div>
+    <br>
+    <br>
+    <div class=oh>
+        <lable for="number">Phone :</lable>
+        <input type="tel" style="width:400px;">
+    </div>
+    <br>
+    <div>
+        <p>Gender :</p>
+
+        <input type="checkbox">
+        <lable for="number">Male</lable>
+        <input type="checkbox">
+        <lable for="number">Female</lable>
+        
+    </div>
+    <br>
+    <div>
+        <h4>Choose yor fav cars :</h4>
+
+<select name="cars" id="cars" multiple size="4" class="selec">
+  <option value="Mustang">Mustang</option>
+  <option value="Bmw">BMW</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+  <option value="Mahindra">Mahindra</option>
+  <option value="Tata">Tata</option>
+  <option value="VW">VW</option>
+  <option value="Ford">Ford</option>
+</select>
+    </div>
+    <div>
+        <p>Choose your  Web language:</p>
+
+<form>
+  <input type="radio" id="ratio">
+  <label for="html">HTML</label><br>
+  <input type="radio">
+  <label for="css">CSS</label><br>
+  <input type="radio">
+  <label for="javascript">JavaScript</label>
+</form>
+    </div>
+    <br>
+    <div>
+        <p>Your avilable time..?</p>
+        <input type="time"> From
+        <input type="time"> Till
+    </div>
+    <br>
+    <div>
+        <p>Date of Birth :</p>
+        <input type="date">
+    </div>
+    <br>
+    <div>
+        <p>Upload your resume :</p>
+        <input type="file">
+    </div>
+    <br>
+    <div>
+        <p>Choose Your favorite color :</p>
+        <input type="color">
+
+    </div>
+    <br>
+    <div>
+        <p>Which month prefered to join :</p>
+        <input type="month">
+    </div>
+    <br>
+    <br>
+    <div>
+        <lable for="number">Upload your photo here :</lable>
+        <!-- <p>Upload your photo here</p> -->
+        <input type="image">
+    </div>
+    <br>
+    <br>
+    <div class=oh>
+        <lable for="number">Password :</lable>
+       <div class=oh>
+            <input type="password" style="width:250px;">
+        </div> 
+       
+    <br>
+    <br>
+
+    <div class=oh>
+        <lable for="number">Website :</lable>
+        <input type="url" placeholder= "paste link here" style="width:250px;">
+    </div>
+    <br>
+    <div>
+        <form>
+        <lable for="vol">Expecting Salary(Between 10k and 30k)</lable>
+        <input type="range">
+    </form>
+    </div>
+    <br>
+    <br>
+    <div>
+        <p>Today date :</p>
+        <input type="datetime-local">
+    </div>
+    <br>
+    <br>
+    <div>
+        <input type="submit"style="background-color:#36eb36;">
+        <input type="reset"style="background-color:#f33030;">
+    </div>
+    <br>
+    <br>
+    <div>
+        
+        <input type="button" value="Next Page" style= background:#d3b136;">
+
+    </div>
+    <div>
+        <input type="hidden">
+    </div>
+
+</div>
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

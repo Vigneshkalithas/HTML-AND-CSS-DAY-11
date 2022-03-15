@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        .capt{
+            font-weight: bold;
+            margin-top: 12px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-family: 'Roboto', sans-serif;
+            
+        }
+    table{
+        width:700px;
+        height:300px;
+        border-spacing:10px;
+        text-align:center;
+        margin-top: 30px;
+
+    
+    }
+    th{
+        text-align:center;
+    }
+    table,th,td{
+        border:2px solid black;
+        border-collapse: collapse;
+        
+    }
+    td{
+        padding:10px;
+        font-weight: bold;
+    }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&family=Roboto:wght@100;300&display=swap" rel="stylesheet"
+</head>
+<body>
+    
+    <table>
+        <caption class=capt>Health Chart</caption>
+        <col>
+        <colgroup span="2"></colgroup>
+        <colgroup span="2"></colgroup>
+        <tr>
+          <td rowspan="2">State of Health</td>
+          <th colspan="2" scope="colgroup">Fasting Value</th>
+          <th colspan="2" scope="colgroup">After Eating</th>
+        </tr>
+        <tr>
+          <th scope="col">Minimum</th>
+          <th scope="col">Maximum</th>
+          <th scope="col">2 hours after eating</th>
+        </tr>
+        <tr>
+          <th scope="row">Healthy</th>
+          <td>70</td>
+          <td>100</td>
+          <td>Less then 140</td>
+        </tr>
+        <tr>
+          <th scope="row">Pre-daibetes</th>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to 200</td>
+          
+        </tr>
+        <tr>
+            <th scope="row">daibetes</th>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More then 200</td>
+            
+          </tr>
+      </table>
+</body>
+</html>
